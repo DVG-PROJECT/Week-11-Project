@@ -15,4 +15,7 @@ The data comes from a transactional fashion database which contains 'clothing_ty
 
 ## Loading the Dataset
 We created a postgresql aiven service and loaded our table in the dbeaver. Most of the analysis was done in dbeaver
+1. Created a table Fashion to store our data
+![Creating Table](images/creating)
+
 
