@@ -12,3 +12,7 @@ Present clear, actionable findings in both written reports and presentations.
 
 ## 🗂️ Dataset Information
 The data comes from a transactional fashion database which contains 'clothing_type', 'category', 'price', 'discount', 'shop_outlet','delivery_date', 'order_date', 'revenue','customer_name','customer_email' as the columns
+
+## Loading the Dataset
+We created a postgresql aiven service and loaded our table in the dbeaver. Most of the analysis was done in dbeaver
+
