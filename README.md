@@ -46,5 +46,17 @@ After running the above query, we noted that the top 5 selling product categorie
 - Using python, we created a line plot to display the revenue distribution over the days of the week
 ![Creating Table](Images/weekpy.png)
 
+### B. Customer Insights
+1. List the top 10 customers by Revenue
+- We executed the below query to generate the customers column and respective total revenue. We went further to order them in descending order then limited the output to 10
+![Creating Table](Images/customers.png)
+- The output showed that 'Shaughn Greenwood' had generated the highest revenue(9993.83)
+![Creating Table](Images/customeroutput.png)
 
+2. Compare the number of repead vs New customers
+- Things getting deep here. We used ctes(common table expressions) to be able to group customers as either new or repeated
+![Creating Table](Images/new.png)
+
+- The output showed that all customers were new.
+![Creating Table](Images/newoutput.png)
 
