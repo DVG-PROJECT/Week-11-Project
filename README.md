@@ -37,5 +37,13 @@ After running the above query, we noted that the top 5 selling product categorie
 - We went ahead and did a line plot in python to view the trend
 ![Creating Table](Images/monthpy.png)
 
+3. Analyze sales distribution by day of the week
+- A step ahead in extracting the day of the week. We still used the TO_CHAR function to extract
+![Creating Table](Images/weeksales.png)
+- The output: Friday had the highest revenue (118733.37) and Tuesday generating the lowest revenue(28749.08)
+![Creating Table](Images/weekoutput.png)
+- Using python, we created a line plot to display the revenue distribution over the days of the week
+![Creating Table](Images/weekpy.png)
+
 
 
