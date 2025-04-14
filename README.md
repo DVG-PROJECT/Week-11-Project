@@ -32,7 +32,8 @@ After running the above query, we noted that the top 5 selling product categorie
 2. Determine the monthly trend of total sales
 - From our given order_date column, we extracted the month and grouped it with respective total revenue to check the revenue distribution over the months
 ![Creating Table](Images/monthsales.png)
-- The output was as follows:
+
+- The output was as follows: October had the highest revenue(72872.06) and December having the lowest revenue (12418.15)
 ![Creating Table](Images/monthoutput.png)
 - We went ahead and did a line plot in python to view the trend
 ![Creating Table](Images/monthpy.png)
