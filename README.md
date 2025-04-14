@@ -20,4 +20,12 @@ We created a postgresql aiven service and loaded our table in the dbeaver. Most 
 2. Inserted values into the created table
 ![Creating Table](Images/loading.png)
 
+## Analysis Breakdown
+### A. Sales Analysis
+1. Top 5 selling products
+- The objective was to identify the products with the highest revenue
+![Creating Table](Images/top5.png)
+After running the above query, we noted that the top 5 selling product categories were accessories, shoes, pants, dresses and finally shirts
+![Creating Table](Images/top5output.png)
+
 
